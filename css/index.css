@@ -1,12 +1,11 @@
 body {
          margin: auto;
-         max-width: 900px;
+         max-width:900px;
+        
          }
-
 .sidebar {
   grid-area: sidebar;
 }
-
 .content {
   grid-area: content;
   position: relative;
@@ -46,6 +45,7 @@ body {
 .header,
 .footer {
   background-color: #999;
+  
 }
 
 .topleft {
@@ -68,20 +68,22 @@ body {
 
 .bottomright {
   position: absolute;
-  bottom: 0;
+  bottom: 10;
   right: 0;
 }
 .header{
          font-size:150%;
          font-family:serif;
-width:900px;
+ width:900px;
 height:100px;
+
 }
 .listmenu li{
 display:block;
 
+
  }
- .listmenu a{
+.listmenu a{
  text-decoration:none;
  padding:10px;
 float:right;
@@ -92,10 +94,9 @@ margin-top:-5px;
  .listmenu a:hover{
           background:#8AB8CC;
  }
- p{
-          margin-left:5px;
-          margin-top:30px;
- }
+ 
+
+ 
  .content{
      width:690px;
      height:350px;
@@ -104,6 +105,10 @@ margin-top:-5px;
     
     height:443px;
  }
+ .footer{
+     width:900px;
+    }
+
 
  
 
