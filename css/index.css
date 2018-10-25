@@ -20,14 +20,9 @@ body {
 .footer {
   grid-area: footer;
 }
-
-
-
-
-
 .wrapper {
         display: grid;
-    grid-gap: 10px ;
+    grid-gap:10px ;
     
         grid-template-columns: 200px 200px 200px;
         grid-template-areas:
@@ -35,13 +30,13 @@ body {
         "sidebar content content"
         
         "footer  footer  footer";
-        background-color: #fff;
+        background-color:#ffffff;
         color: #444;
     }
 .flex-container {
          display: flex;
          flex-direction: column;
-         background-color:white;
+         background-color:#fff;
          
 margin:-5px;
          }
@@ -54,8 +49,8 @@ margin:-5px;
   
 }
 #foo{
-    height:70px;
-    padding:10px;
+    height: 70px;
+  
      border-radius: 5px;
 }
  #boo{
@@ -112,7 +107,35 @@ height:100px;
      height:350px;
  }
 
- 
+h1{ 
+    text-align:center;
+    margin-top:20px;
+}
+h5{
+    font-family:italic;
+    font-size:20px;
+    text-align:center;
+     padding-top:10px;
+}
+p{
+    text-align:center;
+    font-family:italic;
+    font-size:20px;
+ }
+#client-name{
+    font-size:18px;
+    height:25px;
+}
+#client-age{
+    font-size:18px;
+    height:25px;
+}
+#client-review{
+    font-size:20px;
+    width:700px;
+    height:115px;
+}
+
 
 
 
